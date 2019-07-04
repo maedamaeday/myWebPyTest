@@ -5,7 +5,7 @@
 </head>
 <body>
 *POST
-<form action="http://127.0.0.1:8080/cgi-bin/post_get_test.py" method="post">
+<form action="http://localhost:8080/cgi-bin/post_get_test.py" method="post">
   <div>
     <label for="name">name</label>
     <input name="name" id="name" value="POST name">
