@@ -12,6 +12,7 @@ do
     git add "${f}"
 done
 git add filelist
+git add README*
 
 git commit -m "${@}"
 git push -u origin master

@@ -2,8 +2,7 @@
 
 ## outline
 Run a python code (or any type of program) through web browser.
-A user can specify arguments in html forms and run a python script with the given arguments.
-Output texts will appear in a new page.  
+A user can specify arguments in html forms 
 
 reference : https://qiita.com/goodboy_max/items/833d482827bf0efab45a
 
