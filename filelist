@@ -2,16 +2,13 @@
 |-- README.md
 |-- cgi-bin
 |   |-- my_script.py
-|   |-- my_script.py~
-|   |-- run_script.py
-|   `-- run_script.py~
+|   `-- run_script.py
 |-- filelist
 |-- git_commit.sh
-|-- git_commit.sh~
 |-- index.html
 `-- original
     |-- hello.py
     |-- post_get_test.html
     `-- post_get_test.py
 
-2 directories, 12 files
+2 directories, 9 files
