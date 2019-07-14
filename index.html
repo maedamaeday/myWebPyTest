@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>テストフォーム</title>
+<meta http-equiv="content-type" charset="utf-8">
+</head>
+<body>
+<h1>run python script with arguments</h1>
+<hr>
+
+*POST
+<form action="cgi-bin/run_script.py" method="post">
+  <div>
+    <label for="arg1">argument1</label>
+    <input name="arg1" id="arg1" value="defaut value">
+  </div>
+  <div>
+    <label for="arg2">argument2 (default is empty)</label>
+    <input name="arg2" id="arg2" value="">
+  </div>
+  <div>
+    <label for="arg3">argument3 (flag)</label>
+    <input type="checkbox" name="arg3" value="1" checked="checked">flag
+  </div>
+  <div>
+    <label for="arg4">argument4 (choice)</label>
+    <input type="radio" name="arg4" value="1" checked>1
+    <input type="radio" name="arg4" value="2">2
+    <input type="radio" name="arg4" value="3">3
+  </div>
+  <div>
+    <button>RUN</button>
+  </div>
+</form>
+<hr>
+*GET
+<form action="cgi-bin/run_script.py" method="get">
+  <div>
+    <label for="name">name</label>
+    <input name="name" id="name" value="GET name">
+  </div>
+  <div>
+    <label for="addr">address</label>
+    <input name="addr" id="addr" value="GET address">
+  </div>
+  <div>
+    <button>GET</button>
+  </div>
+</form>
+
+<br>
+https://docs.python.jp/3/library/cgi.html
+
+</body>
+</html>
